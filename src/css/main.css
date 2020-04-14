@@ -1,0 +1,451 @@
+#login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+  #login-container > .row {
+    min-height: 100%; }
+
+
+.left-container {
+  float:  left;
+  width: 58%;
+  margin-left: 28px;
+  padding: 24px;
+  border-right: 1px solid #AAAAAA;
+}
+
+.left-container div.row {
+  margin: 0;
+}
+
+.right-container {
+  float:  left;
+  width: 40%;
+}
+
+.left-container form {
+  width: 100%;
+}
+
+.card-mt {
+  margin-top: 24px;
+  margin-left: 28px;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+.fontchange {
+  font-size: 9px;
+  display: inline-block;
+  width: 58%;
+}
+
+.phone-input {
+  width: 39%;
+  display: inline-block;
+}
+
+
+.navgationbarcolor {
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #0368ab;
+  width: 1440px;
+  height: 80px;
+}
+
+.tablecss {
+  width: 1112px;
+  height: 826px;
+  border-radius: 5px;
+  border: solid 1px #626f77;
+
+}
+
+.tablefirstline {
+  background-color: #626f77;
+}
+
+.buttoncss {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+}
+
+.cancelbutton {
+  width: 73px;
+  height: 28px;
+  font-family: SourceSansPro;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0368ab;
+}
+
+.inputbarnewclient {
+  width: 350px;
+  height: 35px;
+  border: solid 1px #e3e3e3;
+  background-color: #ffffff;
+}
+
+.inputbarnewclientsm {
+  width: 150px;
+  height: 35px;
+  border: solid 1px #e3e3e3;
+  background-color: #ffffff;
+}
+
+.inputbarnewclientmd {
+  width: 255px;
+  height: 35px;
+  border: solid 1px #e3e3e3;
+  background-color: #ffffff;
+}
+
+.btnsavenewclient {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+}
+
+.btn-backtocasedetails {
+  font-family: SourceSansPro;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0368ab;
+}
+
+.text-landurvey {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.btn-print {
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+}
+
+.btn-notes {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+}
+
+.courtorderdetail-status-text {
+  font-family: SourceSansPro;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #626f77;
+}
+
+.courtorderdetail-rightcontainer {
+
+}
+
+.courtorderdetail-box {
+  height: 80px;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #b9b9b9;
+  background-color: #ffffff;
+}
+
+.courtorderdetail-box-signature {
+
+  height: 168px;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #b9b9b9;
+  background-color: #ffffff;
+}
+
+.casedetail_card_header {
+  width: 1110px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #626f77;
+}
+
+.casedetail_nav_underline {
+  width: 171px;
+  height: 1px;
+  border: solid 3px #0368ab;
+}
+
+.casedetail_card_header_startdate {
+  width: 204px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.casedetail_card_header_title {
+  width: 427px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.casedetail_card_header_registry {
+  width: 225px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.casedetail_card_header_duedate {
+  width: 110px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.casedetail_cardbody_btn {
+  width: 181px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+  margin:auto;
+  display:block;
+}
+
+.casedetail_cardbody_btntext {
+  width: 133.2px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.casedetail_nav_btn {
+  width: 181px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+
+}
+
+.commentsoncourtorder_progressbar_title {
+
+  font-family: SourceSansPro;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #626f77;
+}
+
+.commentsoncourtorder_progressbar_nav_Postanupdate{
+
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0368ab;
+}
+
+.commentsoncourtorder_nav_underline {
+  width: 115px;
+  height: 2px;
+  border: solid 3px #0368ab;
+}
+
+.commentsoncourtorder_progressbar_btn {
+  width: 65px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+  text-align: center;
+  color: #ffffff;
+}
+
+.commentsoncourtorder_progressbar_input {
+  width: 550px;
+  height: 43px;
+  border: solid 1px #e3e3e3;
+  background-color: #ffffff;
+
+}
+
+.commentsoncourtorder_progressbar_dot {
+  width: 18px;
+  height: 18px;
+  font-family: FontAwesome5Pro-Solid;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.commentsoncourtorder_progressbar_text {
+  width: 533px;
+  height: 23px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.newcourtorder_btn_sendforapproval {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0368ab;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.newcourtorder_btn_saveasdraft {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #0368ab;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0368ab;
+}
+
+.casesdetail_no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.casesdetail_namecase {
+  display: flex;
+}
+
+.commentsoncourtorder_btns {
+  display: inline;
+}
+
+.commentsoncourtorder_flex {
+  flex: 1;
+}
+
+.commentsoncourtorder_floatleft {
+  float:left;
+}
+
+.commentsoncourtorder_btn_inprogress {
+  width: 100%
+}
+
+.commentsoncourtorder_signed {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0368ab;
+}
+
+.commentsoncourtorder_line1 {
+  width: 419px;
+  text-align: right;
+}
+
+.commentsoncourtorder_line2_1 {
+  width: 399px;
+  text-align: right;
+}
+
+.commentsoncourtorder_line2_2 {
+  width: 17px;
+  text-align: right;
+}
+
+.commentsoncourtorder_line2_3 {
+  width: 91px;
+  text-align: right;
+}
+
+.commentsoncourtorder_progressbar_width {
+  width: 100%;
+}
+
+.index_btn {
+  border-radius: 5px;
+  background-color: #0368ab;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  	<title>Court Order</title>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+      <div class="container">
+        <a href="********" class="navbar-brand">Dashboard</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a href="cases.html" class="nav-link active">Clients</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="cases.html" class="nav-link">Cases</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="settings.html" class="nav-link">Settings</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="support.html" class="nav-link">Support</a>
+            </li>
+          </ul>
+          <div class="btn ml-auto">
+            <a href="#">
+              <span class="fas fa-user-circle text-white">  Log out</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- SEARCH -->
+    <section id="search" class="py-4 mb-4 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ml-auto">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+              <div class="input-group-append">
+                <button class="btn btn-secondary">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Body -->
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-9">
+          <a href="Dashboard-clients.html">
+            <span class="fas fa-chevron-left mb-4 text-dark">Back to Clients</span>
+          </a>
+          <h4>Land Survey
+            <a href="#" class="btn border ml-auto">
+              <span class="fas fa-share-alt">  Share</span>
+            </a>
+          </h4>
+
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="bold">Deadline</h5>
+              <h6>02/18/2020</h6>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="bold">Location</h5>
+              <h6>123 Acme Rd,Vancouver, BC</h6>
+            </div>
+          </div>
+          <div>
+            <h6 class="bold mt-4">Update States</h6>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              In progress
+              <span class="fas fa-caret-down ml-auto"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/3da623fe69.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $('#year').text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

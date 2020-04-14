@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  	<title>Court Order</title>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark p-0 navgationbarcolor">
+      <div class="container">
+        <a href="********" class="navbar-brand">Dashboard</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a href="Dashboard-clients list High Fatality.html" class="nav-link">Clients</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="New Case High Fatality.html" class="nav-link active">Cases</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#" class="nav-link">Settings</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#" class="nav-link">Support</a>
+            </li>
+          </ul>
+          <div class="btn ml-auto">
+            <a href="#">
+              <span class="fas fa-user-circle text-white">  Log out</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- SEARCH -->
+
+
+    <!-- Body -->
+    <div class="container">
+      <a href="Dashboard-clients.html">
+        <span class="fas fa-chevron-left mt-3 mb-3 btn-backtocasedetails">Back To Case Details</span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="casesdetail_namecase">
+        <h2 class="d-inline">Hartell v Jones</h2>
+        <p class="bold ml-auto d-inline">Case No:1548121</p>
+      </div>
+      <div class="">
+        <!-- Nar -->
+        <nav class="navbar navbar-expand-sm navbar-light casesdetail_no-padding">
+          <div class="container justify-content-left casesdetail_no-padding">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Awaiting Approval(0)</a>
+                <div class="casedetail_nav_underline"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inprogress(3)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Completed(1)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Drafts(2)</a>
+              </li>
+
+            </ul>
+            <a href="New Court Order High Fatality.html">
+              <button class="casedetail_nav_btn" type="button" name="button">
+                <i class="fas fa-plus casedetail_cardbody_btntext d-inline">New Court Order</i>
+              </button>
+            </a>
+          </div>
+        </nav>
+
+      </div>
+      <!-- card -->
+      <div class="card mt-1">
+        <div class="card-header casedetail_card_header casesdetail_namecase">
+          <p class="casedetail_card_header_startdate d-inline">Start Date</p>
+          <p class="casedetail_card_header_title d-inline">Title</p>
+          <p class="casedetail_card_header_registry d-inline">Registry</p>
+          <p class="casedetail_card_header_duedate d-inline">Due Date</p>
+        </div>
+        <div class="card-body">
+          <p class="text-center">There are no court orders for this case. Click on the button below to create a new court order.</p>
+          <a href="New Court Order High Fatality.html">
+            <button class="casedetail_cardbody_btn justify-content-center" type="button" name="button">
+              <i class="fas fa-plus casedetail_cardbody_btntext d-inline">New Court Order</i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/3da623fe69.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $('#year').text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

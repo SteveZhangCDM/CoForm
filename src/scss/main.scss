@@ -1,0 +1,20 @@
+#login-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	>.row{
+		min-height: 100%;
+	}
+}
+
+.left-container {
+  float:  left;
+  width: 890px;
+}
+
+.right-container {
+  float:  left;
+  width: 590px;
+}
